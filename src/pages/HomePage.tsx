@@ -47,7 +47,7 @@ function HomePage() {
             {/* Header code disini */}
             <div className="flex w-full items-center justify-between rounded-3xl border border-white/5 bg-white/15 px-8 py-4 shadow-xl backdrop-blur-md">
               {/* Logo code disini */}
-              <div className="w-32 shrink-0">
+              <div className="w-24 shrink-0">
                 <AspectRatio
                   ratio={153 / 80}
                   className="overflow-hidden rounded-lg"
@@ -62,9 +62,7 @@ function HomePage() {
               <NavigationMenu viewport={false}>
                 <NavigationMenuList>
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="text-lg text-white hover:text-black focus:text-black">
-                      Tentang YPAB
-                    </NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Tentang YPAB</NavigationMenuTrigger>
                     <NavigationMenuContent className="right-auto left-0">
                       <ul className="w-80 p-4">
                         <div className="grid grid-cols-2 gap-2">
